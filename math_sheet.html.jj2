@@ -1,0 +1,29 @@
+<html>
+<style>
+  table {
+  width: 100%
+  }
+   td {
+   padding: 6px;
+   font-size: 18px;
+  }
+</style>
+<header>
+</header>
+<body>
+<h2>Date: {% now 'utc' + 'hours=1' %} for {{name}}</h2>
+<table>
+<tr>
+{% for row in rows %}
+</td>
+<td>
+{{row.a}} {{row.op}} {{row.b}} = ___
+</td>
+{% if loop.index % 4 == 0 %}
+</tr><tr>
+{% endif %}
+{% endfor %}
+</tr>
+</table>
+</body>
+</html>
