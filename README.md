@@ -15,6 +15,7 @@ $ pip install -r requirements.txt
 # Launch
 
 ```
+$ cd reception/a_op_b
 $ bash make.sh your_child_name
 math_sheet.pdf is generated
 ```
