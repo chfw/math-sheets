@@ -27,4 +27,4 @@ Creative commons license.
 
 # Example
 
-![Screenshot 2020-04-19 at 20 05 12](https://user-images.githubusercontent.com/4280312/79697210-5c55c500-8279-11ea-947c-871e6480d880.png)
+![Screenshot 2020-04-19 at 20 10 31](https://user-images.githubusercontent.com/4280312/79697314-e9991980-8279-11ea-90bb-767bdb4fe8d1.png)
