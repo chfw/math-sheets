@@ -1,17 +1,6 @@
-<html>
-<style>
-  table {
-  width: 100%
-  }
-   td {
-   padding: 6px;
-   font-size: 18px;
-  }
-</style>
-<header>
-</header>
-<body>
-<h2>Date: {% now 'utc' + 'hours=1' %} for {{name}}</h2>
+{% extends 'base.html.jj2' %}
+
+{% block rendering_block %}
 <table>
 <tr>
 {% for row in rows %}
@@ -25,5 +14,4 @@
 {% endfor %}
 </tr>
 </table>
-</body>
-</html>
+{% endblock %}
