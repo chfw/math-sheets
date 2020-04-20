@@ -1,6 +1,6 @@
-# Math sheet
+# Math sheets
 
-Auto generate math works for your kids when the school is shut.
+Auto generate math works for your kid(s) when the school is shut.
 
 So far, it generates challenging math works for reception children.
 
