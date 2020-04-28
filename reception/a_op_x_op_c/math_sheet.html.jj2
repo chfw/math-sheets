@@ -1,0 +1,17 @@
+{% extends 'base.html.jj2' %}
+
+{% block rendering_block %}
+<table>
+<tr>
+{% for row in rows %}
+</td>
+<td>
+{{row.a}} {{row.op}} ___ = {{row.c}}
+</td>
+{% if loop.index % 4 == 0 %}
+</tr><tr>
+{% endif %}
+{% endfor %}
+</tr>
+</table>
+{% endblock %}
