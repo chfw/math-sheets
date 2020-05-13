@@ -16,6 +16,8 @@
   div.marks p b{
     margin-right: 100px;
   }
+  {% block extra_styles %}
+  {% endblock %}
 </style>
 <header>
 </header>

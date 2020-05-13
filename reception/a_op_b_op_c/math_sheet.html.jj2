@@ -1,5 +1,14 @@
 {% extends 'base.html.jj2' %}
 
+{% block extra_styles %}
+  .number-line {
+     height: 20px
+  }
+  td {
+    border-bottom: 1px solid #ddd;
+    }
+{% endblock %}
+
 {% block rendering_block %}
 <table>
 <tr>
@@ -8,10 +17,11 @@
 <td>
 {{row.a}} {{row.op}} {{row.b}} {{row.op2}} {{row.c}} = ___
 </td>
-{% if loop.index % 4 == 0 %}
-</tr><tr>
-{% endif %}
-{% endfor %}
+<td>
+<img src="../../assets/number-line-20.png" class="number-line">
+</td>
 </tr>
+{% endfor %}
 </table>
+
 {% endblock %}

@@ -11,8 +11,8 @@ def main():
     rows = []
     for row in range(COUNT):
         index = random.randint(0, 1)
-        a = random.randint(0, 10)
-        b = random.randint(0, 10)
+        a = random.randint(1, 5)
+        b = random.randint(1, 5)
         op = OPS[index]
         if op == MINUS:
             if a < b:

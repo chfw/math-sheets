@@ -1,7 +1,7 @@
 import yaml
 import random
 
-COUNT = 4 * 12
+COUNT = 22
 PLUS = '+'
 MINUS = '-'
 OPS = [PLUS, MINUS]
