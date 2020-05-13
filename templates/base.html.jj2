@@ -1,23 +1,30 @@
 <html>
-<style>
-  table {
-  width: 100%
-  }
-  td {
-   padding: 6px;
-   font-size: 18px;
-  }
-  div.marks {
-    width: 100%;
-  }
-  div.marks p {
-    text-align: right;
-  }
-  div.marks p b{
-    margin-right: 100px;
-  }
-  {% block extra_styles %}
-  {% endblock %}
+	<style>
+		@font-face {
+		font-family: "CustomFont";
+		src: url("../../assets/DeliusSwashCaps/DeliusSwashCaps-Regular.ttf");
+		}
+		body {
+		font-family: "CustomFont";
+		}
+		table {
+		width: 100%
+		}
+		td {
+		padding: 6px;
+		font-size: 18px;
+		}
+		div.marks {
+		width: 100%;
+		}
+		div.marks p {
+		text-align: right;
+		}
+		div.marks p b{
+		margin-right: 100px;
+		}
+		{% block extra_styles %}
+		{% endblock %}
 </style>
 <header>
 </header>
